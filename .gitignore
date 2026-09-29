@@ -1,0 +1,50 @@
+# ===== 备份文件 =====
+*.bak
+*.bak_*
+.bak_*/
+backup_*/
+.bak_*/
+
+# ===== 草稿/临时文件 =====
+*.tmp
+*.temp
+*.draft
+*.orig
+*.restored
+*_restored.json
+*_draft.*
+*_log_*.txt
+tmp/
+temp/
+scratch/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ===== 令牌/密钥（禁止提交）=====
+*.token
+*.key
+*.pem
+secrets/
+credentials/
+*secret*
+*credential*
+*token*
+
+# ===== 检查报告/错题报告（工作文件）=====
+错题报告/
+CHECK_REPORT/
+*.check
+*_regression.json
+*_smoke.json
+*_qc.json
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
