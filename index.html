@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 刷题小能手4.3 - v20260926fix34 结构损坏清零: 恢复单选133道+删除68道+清理125道+判断题语义修复+随机刷题题量修复 -->
+<!-- 刷题小能手4.3 - v20260926fix35 救生员题库全量重建: 以官方App 1490张截图逐张看图重建(单选765/判断672/多选53), 根治答案与解析不符/题干不完整/单选误转判断 -->
 <html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -14,7 +14,7 @@
          第5层：发现新版本时提示用户刷新 -->
     <script>
     (function() {
-        var CURRENT_V = '20260926fix34';
+        var CURRENT_V = '20260926fix35';
         var LS_KEY = '_quiz_latest_v';
         var LS_FIRST = '_quiz_v2_loaded'; // v2缓存机制已执行标记
         var LS_FORCE = '_quiz_force_refresh'; // 强制刷新标记
@@ -1373,7 +1373,7 @@
             <div class="exam-type-buttons">
                 <button class="exam-type-btn" onclick="selectExamType(&#39;救生员&#39;)">
                     <div class="title">游泳救生员</div>
-                    <div class="count" id="lifeguardCount">共 2120 题</div>
+                    <div class="count" id="lifeguardCount">共 1490 题</div>
                 </button>
                 <button class="exam-type-btn" onclick="selectExamType(&#39;指导员&#39;)">
                     <div class="title">游泳社会体育指导员</div>
@@ -1682,8 +1682,8 @@
         }
 
         // 版本号常量（用于题库缓存控制，更新题库时修改此值）
-        const BANK_VERSION = 'v20260926fix34';
-        const APP_VERSION = '20260926fix34';
+        const BANK_VERSION = 'v20260926fix35';
+        const APP_VERSION = '20260926fix35';
 
         // 页面加载时延迟预加载（不阻塞首屏渲染）
         setTimeout(function() {

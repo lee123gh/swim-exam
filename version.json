@@ -1,10 +1,10 @@
 {
-  "version": "20260926fix34",
-  "releaseTime": "2026-09-29T17:30:00+08:00",
-  "message": "fix34: 修复首页两处显示硬编码——①底部版本号被硬编码fix30改为动态引用APP_VERSION;②两个卡片题数静态默认值2273/3274改为2120/3213,并在version.json增加bankCounts字段由版本检测兜底填充;缓存破冰机制保留(no-cache meta/banks带v参数/version.json时间戳/1.5秒自动强制刷新);fix32全量16轮修复成果保留;15项回归全绿",
-  "bankVersion": "v20260926fix34",
+  "version": "20260926fix35",
+  "releaseTime": "2026-10-15T15:10:00+08:00",
+  "message": "fix35: 救生员题库全量重建——弃用旧2120题,以官方App全部1490张背题截图逐张看图重建(绿勾=唯一权威),根治'正确选项与解析不符、题干不完整、单选被错转判断'三类问题;新库结构:单选765/判断672/多选53,8章按教材顺序排列;派生lifeguard/lifeguard_senior(MD5一致)/order_lifeguard三库,17项代码级回归全绿;指导员库不变(3213);缓存破冰机制保留(no-cache meta/banks带v参数/version.json时间戳/1.5秒自动强制刷新)",
+  "bankVersion": "v20260926fix35",
   "bankCounts": {
-    "lifeguard": 2120,
+    "lifeguard": 1490,
     "instructor": 3213
   }
 }
